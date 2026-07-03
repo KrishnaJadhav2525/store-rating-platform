@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', ui-sans-serif, sans-serif;
+  color: #1C2321;
+}
+
+.font-display {
+  font-family: 'Fraunces', ui-serif, serif;
+}
+
+.font-mono-data {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+::selection {
+  background-color: #B08D57;
+  color: #F6F3EC;
+}
+
+/* Visible keyboard focus for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #B08D57;
+  outline-offset: 2px;
+}
